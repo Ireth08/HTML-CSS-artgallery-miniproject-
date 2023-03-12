@@ -1,0 +1,256 @@
+.container{
+    height: 1700px;
+    width: 1500px;
+    margin: 100px 100px;
+    
+}
+
+/*Header*/
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+}
+
+.home{
+    height: 110px;
+    width: 170px;
+}
+
+.hometxt{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: antiquewhite;
+}
+a:hover{
+    color: azure;
+}
+
+
+.header > :hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+/*main*/
+
+.main{
+    height: auto;
+    width: auto;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    display: flex;
+    color:rgb(99, 4, 4); 
+}
+
+.t1{
+    position: absolute;
+    font-family: 'Golos Text', sans-serif;
+    font-size: x-large; 
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.t2{
+    position: absolute;
+    font-family: 'Golos Text', sans-serif;
+    font-size: x-large; 
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.image > img{
+    height: 300px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.btn{
+    display: flex;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+   
+
+}
+
+button{
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    background-color:rgb(99, 4, 4); 
+    margin-top: 530px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: medium; 
+}
+
+.pform {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 25%;
+    color: rgb(99, 4, 4); 
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+    align-items: center;  
+    justify-self: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input {
+    margin-bottom: 50px;
+    border-radius: 25px;
+    border-style: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+
+}
+
+.form-text{
+    display: grid;
+    justify-content: space-between;
+    margin-right: 55px;
+   
+}
+
+.cardno{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+.cvv {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.expdt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.name{
+
+    margin-bottom: 150px;
+}
+
+.bullet{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+    align-items:flex-end;
+
+}
+.bullets {
+    display : flex;
+    position:absolute;
+    flex-direction: column;
+    margin-bottom: 250px;
+    margin-right: 160px;
+   
+}
+.bullets span {
+    
+    margin-bottom: 40px;
+}
+
+.bullets1 {
+    display : flex;
+    position:absolute;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 350px;
+    transform: scale(1.5);
+}
+
+.bullets1 input {
+    margin-bottom: 25px;
+}
+
+/* Footer*/
+
+
+.footer {
+
+    display: flex;
+    height: 250px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+
+}
+
+.footer > .uls {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > .fa-solid {
+    color: black;
+}
+
+.content{ 
+    margin-left: 820px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    align-content:normal;
+
+
+}
+
+.content > span > .fa-brands {
+    color: black;
+}
+
+.content >span {
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 90px;
+    width: 200px;
+    display: flex;
+   
+}

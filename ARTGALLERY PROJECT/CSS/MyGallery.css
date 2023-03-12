@@ -1,0 +1,224 @@
+.container{
+    height: 1700px;
+    width: 1500px;
+    margin: 100px 100px;
+    
+}
+
+/*Header*/
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+}
+
+.home{
+    height: 110px;
+    width: 170px;
+}
+
+.hometxt{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: antiquewhite;
+}
+a:hover{
+    color: azure;
+}
+
+
+.header > :hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn{
+
+    align-self:flex-end;
+    margin-bottom: 30px;  
+    position: absolute;
+    margin-left: 1055px;
+ }
+ 
+ .btn button {
+     display: flex;
+     background-color: rgb(99, 4, 4);
+     border-radius: 25px;
+     height: 50px;
+     width: 200px;
+     margin-top: 30px;
+     font-family: 'Golos Text', sans-serif;
+     font-size:large; 
+     justify-content: center;
+     align-items: center;    
+ }
+ 
+
+
+/*Main*/
+
+.main{
+    display:flex;
+     background-color: rgb(217, 217, 217);
+    align-items: start;
+    align-content: space-around;
+    width: 1500px;
+    height: auto;
+    background-color: rgb(217, 217, 217);
+}
+
+.unftour {
+    display: flex;
+    height: auto;
+    width: 750px;
+    margin-top: 145px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+}
+.unftour > img {
+
+    height: 450px;
+    width: 600px;
+
+}
+
+.unftour > span {
+    position: absolute;
+    left: 320px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: larger;
+} 
+
+.fa-regular{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+}
+.gallery{
+    display: grid;
+    height: auto;
+    width: 700px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: rgb(99, 4, 4); 
+    font-family: 'Golos Text', sans-serif;
+    font-size: larger;
+}
+
+.gallery > img {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Golos Text', sans-serif;
+    color: rgb(99, 4, 4);
+    font-size: x-large; 
+    top: 300px;
+}
+.Dali{
+    position: absolute;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+    top: 350px;
+    margin-left: 5px;
+}
+
+.atelier{
+    position: absolute;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+    top: 600px;
+    margin-left: 5px;
+
+}
+
+
+    
+
+
+
+/* Footer*/
+
+.footer {
+
+    display: flex;
+    height: 250px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+
+}
+
+.footer > .uls {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > .fa-solid {
+    color: black;
+}
+
+.content{ 
+    margin-left: 820px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    align-content:normal;
+
+
+}
+
+.content > span > .fa-brands {
+    color: black;
+}
+
+.content >span {
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 90px;
+    width: 200px;
+    display: flex;
+   
+}

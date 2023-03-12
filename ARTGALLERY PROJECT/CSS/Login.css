@@ -1,0 +1,205 @@
+
+.container{
+    height: 1700px;
+    width: 1500px;
+    margin: 100px 100px;
+    
+}
+
+/*Header*/
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+}
+
+.home{
+    height: 110px;
+    width: 170px;
+}
+
+.hometxt{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: antiquewhite;
+}
+a:hover{
+    color: azure;
+}
+
+
+.header > :hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+/*Main*/
+
+.login{
+    color: rgb(99, 4, 4);
+    font-family: 'Golos Text', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.userlogin{
+    background-color: rgb(217, 217, 217);
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: grid;
+    position: absolute;
+}
+
+
+.usernamelog{
+    display: flex;
+    border: none;
+    border-radius: 20px; 
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    align-items: stretch;
+    
+}
+
+.passwordlog{
+    display: flex;
+    border: none;
+    border-radius: 20px; 
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    align-items: stretch;
+}
+
+::placeholder{
+    color:  rgb(217, 217, 217);
+    font-size: x-large;
+}
+
+input[type=text] {
+    border:none;
+    color: rgb(99, 4, 4);
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+
+input[type=password] {
+    border:none;
+    color: rgb(99, 4, 4);
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+
+button {
+    border-radius: 20px; 
+    border: none;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(99, 4, 4);
+    color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.thumbnail{
+    height: 45px;
+    width: 45px;
+    border-radius: 25%;
+}
+
+
+
+.image {
+    object-fit: cover;
+    height: 900px;
+    width: 1000px;
+}
+
+
+/* Footer*/
+
+.footer {
+
+    display: flex;
+    height: 250px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+
+}
+
+.footer > .uls {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > .fa-solid {
+    color: black;
+}
+
+.content{ 
+    margin-left: 820px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    align-content:normal;
+
+
+}
+
+.content > span > .fa-brands {
+    color: black;
+}
+
+.content >span {
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 90px;
+    width: 200px;
+    display: flex;
+   
+}

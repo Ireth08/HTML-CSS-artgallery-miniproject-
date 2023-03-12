@@ -1,0 +1,774 @@
+.container{
+    height: 1700px;
+    width: 1500px;
+    margin: 100px 100px;
+    
+}
+
+/*Header*/
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+}
+
+.home{
+    height: 110px;
+    width: 170px;
+}
+
+.hometxt{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: antiquewhite;
+}
+a:hover{
+    color: blue;
+}
+
+
+.header > :hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 850px;
+    background-color: rgb(217, 217, 217);
+}
+
+.formsign {
+
+    display: flex;
+    width: 700px;
+    margin: 150px 0px;
+   margin-left: 300px;
+   
+}
+
+
+.form1 label {
+    display: flex;
+    margin-bottom: 43px;
+    margin-right: 100px;
+    color:rgb(99, 4, 4);
+    font-family: 'Golos Text', sans-serif;
+    font-size: x-large;
+
+}
+
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+ 
+    margin-bottom: 45px;
+    text-align: center;
+    border-radius: 20px;
+    color:rgb(99, 4, 4);
+    font-family: 'Golos Text', sans-serif;
+    font-size: medium;
+    height: 25px;
+    width: 250px;
+    border-style: none;
+}
+
+.image{
+    width: 500px;
+    height: auto;
+
+}
+.image img{
+
+    height: 600px;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.text{
+    width: 500px;
+    height: 150px;
+    display: grid;
+    position: absolute;
+    top: 790px;
+    right: 1000px;
+    color:rgb(99, 4, 4);
+    font-family: 'Golos Text', sans-serif;
+    font-size: larger;
+    
+}
+
+.blt{
+
+    width: 50px;
+    height: 100px;
+    position: relative;
+    top: 595px;
+    right: 640px;
+}
+
+input[type=radio]{
+    margin-bottom: 80px;
+    transform: scale(1.5);
+   
+}
+
+button{
+   
+    display: flex;
+    position: relative;
+    top: 740px;
+    right: 1000px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(99, 4, 4);
+    justify-content: center;
+
+}
+
+button a{
+    align-self: center;
+}
+
+
+
+/* Footer*/
+
+
+.footer {
+
+    display: flex;
+    height: 250px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+
+}
+
+.footer > .uls {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > .fa-solid {
+    color: black;
+}
+
+.content{ 
+
+    margin-left: 820px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    align-content:normal;
+
+
+}
+
+.content > span > .fa-brands {
+    color: black;
+}
+
+.content >span {
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 90px;
+    width: 200px;
+    display: flex;
+   
+}
+
+
+/*media queries*/
+
+
+
+@media (max-width: 1680px) {
+
+    .container {
+        height: auto;
+        width: auto;
+        margin: 50px;
+      }
+    
+ 
+    
+      .formsign {
+        display: flex;
+        margin-top: 100px;
+      
+      }
+    
+      .form1 label {
+        font-size: larger;
+        margin-right: 80px;
+        margin-bottom: 50px;
+      }
+    
+   
+    
+      .text {
+        width: 90%;
+        top: 730px;
+        right: 430px;
+        font-size:larger;
+        text-align: center;
+      }
+    
+
+      .blt {
+  
+          top: 585px;
+          right: 250px;
+    
+      }
+    
+      input[type=radio] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-left: -450px;
+        transform: scale(1);
+
+      }
+    
+      .image{
+        margin-right: 150px;
+      }
+      button {
+       
+        height: 35px;
+        width: 90px;
+        font-size: medium;
+        margin-top: 10px;
+      }
+  
+   
+    }
+    
+
+
+
+@media (max-width: 1440px) {
+
+    .container {
+        height: auto;
+        width: auto;
+        margin: 50px;
+      }
+    
+      .header {
+        height: 100px;
+        font-size: medium;
+      }
+    
+      .hometxt {
+        margin-top: 40px;
+        margin-left: 60px;
+        font-size: 1rem;
+      }
+    
+      .formsign {
+        display: flex;
+        margin-top: 100px;
+      
+      }
+    
+      .form1 label {
+        font-size: large;
+        margin-right: 80px;
+        margin-bottom: 50px;
+      }
+    
+   
+    
+      .text {
+        width: 90%;
+        top: 730px;
+        right: 400px;
+        font-size:large;
+        text-align: center;
+      }
+    
+      .blt {
+  
+          top: 585px;
+          right: 300px;
+    
+      }
+    
+      input[type=radio] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-left: -400px;
+        transform: scale(1);
+
+      }
+    
+      button {
+       
+        height: 35px;
+        width: 90px;
+        font-size: medium;
+        margin-top: 10px;
+      }
+  
+    .image{
+       margin-right: 300px;
+    }
+  
+  
+      .uls{
+          
+        margin-left: 20px;
+      }
+  
+      .content{
+        margin-left: 550px;
+      }
+    
+    }
+    
+/* 
+@media (max-width: 1024px){
+    
+    .container {
+        height: auto;
+        width: auto;
+        margin: 50px;
+      }
+    
+      .header {
+        height: 100px;
+        font-size: medium;
+      }
+    
+      .hometxt {
+        margin-top: 40px;
+        margin-left: 60px;
+        font-size: 1rem;
+      }
+    
+      .formsign {
+        display: flex;
+        margin-top: 100px;
+       margin-left: 420px;
+  
+      
+      }
+    
+      .form1 label {
+        font-size: large;
+        margin-right: 80px;
+        margin-bottom: 50px;
+      }
+    
+   
+    
+      .text {
+        width: 90%;
+        top: 730px;
+        right: 350px;
+        font-size:large;
+        text-align: center;
+      }
+    
+      .blt {
+  
+          top: 585px;
+          right: 450px;
+    
+      }
+    
+      input[type=radio] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-left: -270px;
+        transform: scale(1.2);
+
+      }
+
+      .image{
+        height: 60%;
+        width: 60%;
+         right: -500px;
+      }
+
+
+    
+      button {
+       
+        height: 35px;
+        width: 90px;
+        font-size: medium;
+        margin-top: 10px;
+        right: 750px;
+      }
+  
+    
+  
+  
+      .uls{
+          
+        margin-left: 20px;
+      }
+  
+      .content{
+        margin-left: 200px;
+      }
+
+    }
+
+
+@media  (max-width: 900px) {
+    .container {
+        height: auto;
+        width: auto;
+        margin: 50px;
+      }
+    
+      .header {
+        height: 100px;
+        font-size: medium;
+      }
+    
+      .hometxt {
+        margin-top: 40px;
+        margin-left: 60px;
+      }
+    
+      .formsign {
+        display: flex;
+        margin-top: 80px;
+        margin-right: 100px;
+  
+      
+      }
+    
+      .form1 label {
+        font-size: large;
+        margin-right: 70px;
+        margin-bottom: 50px;
+      }
+    
+      .inputs input {
+        width: 80%;
+      }
+    
+      .image img {
+       display: none;
+      }
+    
+      .text {
+        width: 90%;
+        top: 750px;
+        right: auto;
+        margin-right: 100px;
+        font-size: large;
+        text-align: center;
+      }
+    
+      .blt {
+  
+          top: 605px;
+          right: 100px;
+    
+      }
+    
+      input[type=radio] {
+        margin-bottom: 80px;
+        transform: scale(1);
+      }
+    
+      button {
+       
+        right: 600px;
+        height: 30px;
+        width: 80px;
+        font-size: medium;
+        margin-top: 10px;
+      }
+  
+    
+      .footer{
+          height: 250px;
+      }
+  
+      .uls{
+          font-size:1rem;
+        
+      }
+
+      .logo{
+        display: none;
+      }
+
+      .content >span {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 27px;
+        font-size: 1rem;
+        margin-left: -150px;
+        align-content: center;
+    
+    }
+
+.fa-brands {
+    margin-top: 15px;
+    font-size: 2rem;
+
+}
+    }
+
+
+@media (max-width: 768px) {
+    .container {
+      height: auto;
+      width: auto;
+      margin: 50px;
+    }
+  
+    .header {
+      height: 100px;
+      font-size: medium;
+    }
+  
+    .hometxt {
+      margin-top: 40px;
+      margin-left: 60px;
+    }
+  
+    .formsign {
+    display: flex;
+      width: 80%;
+      margin-top: 100px;
+      margin-right: 170px;
+
+    
+    }
+  
+    .form1 label {
+      font-size: medium;
+      margin-right: 50px;
+    }
+  
+    .inputs input {
+      width: 80%;
+    }
+  
+    .image img {
+     display: none;
+    }
+  
+    .text {
+      width: 90%;
+      top: 750px;
+      right:50px;
+      font-size: medium;
+      text-align: center;
+    }
+  
+    .blt {
+
+        top: 605px;
+        right: 200px;
+  
+    }
+  
+    input[type=radio] {
+      margin-bottom: 80px;
+      transform: scale(1);
+    }
+  
+    button {
+     
+      right: 380px;
+      height: 30px;
+      width: 80px;
+      font-size: medium;
+      margin-top: 10px;
+    }
+
+  
+    .footer{
+        height: 250px;
+    }
+
+    .uls{
+        font-size:0.90rem;
+        margin-left: -20px;
+    }
+
+  
+    .logo {
+      display: none;
+    }
+
+
+    .content >span {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        font-size: 0rem;
+        margin-left: -530px;
+        align-content: center;
+    
+    }
+
+.fa-brands {
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+ 
+  }
+
+  @media (max-width: 368px) {
+    .container {
+      height: auto;
+      width: auto;
+      margin: 50px;
+    }
+  
+    .header {
+      height: 100px;
+      font-size: medium;
+    }
+  
+    .hometxt {
+      margin-top: 40px;
+      margin-left: 60px;
+    }
+  
+    .formsign {
+    display: flex;
+      width: 80%;
+      margin-top: 100px;
+      margin-right: 5px;
+
+    
+    }
+  
+    .form1 label {
+      font-size: medium;
+      margin-right: 50px;
+    }
+  
+    .inputs input {
+      width: 80%;
+    }
+  
+    .image img {
+     display: none;
+    }
+  
+    .text {
+      width: 90%;
+      top: 750px;
+      right:50px;
+      font-size: medium;
+      text-align: center;
+    }
+  
+    .blt {
+
+        top: 605px;
+        right: 200px;
+  
+    }
+  
+    input[type=radio] {
+      position: relative;
+      margin-bottom: 80px;
+      right: -200px;
+      transform: scale(1);
+    }
+  
+    button {
+     
+      right: 420px;
+      height: 30px;
+      width: 80px;
+      font-size: medium;
+      margin-top: 15px;
+    }
+
+  
+    .footer{
+        height: 250px;
+    }
+
+    .uls{
+        font-size:0.90rem;
+        margin-left: -20px;
+    }
+
+  
+    .logo {
+      display: none;
+    }
+
+
+    .content >span {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        font-size: 0rem;
+        margin-left: -530px;
+        align-content: center;
+    
+    }
+
+.fa-brands {
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+ 
+  } */

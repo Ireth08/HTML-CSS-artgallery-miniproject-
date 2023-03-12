@@ -1,0 +1,222 @@
+.container{
+    height: 1700px;
+    width: 1500px;
+    margin: 100px 100px;
+    
+}
+
+/*Header*/
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large; 
+}
+
+.home{
+    height: 110px;
+    width: 170px;
+}
+
+.hometxt{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: antiquewhite;
+}
+a:hover{
+    color: blue;
+}
+
+
+.header > :hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+/* Main*/
+
+.main{
+    height: auto;
+    width: 1500px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(99, 4, 4);
+    font-family: 'Golos Text', sans-serif;
+        
+}
+
+.thumbnl {
+    height: 140px;
+    width: 150px;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-right: 10px;
+}
+
+.thumbnltxt{
+    display: flex;
+    justify-content:center;
+}
+
+.thumbnltxt > span{
+    margin-top: 110px;
+    margin-bottom: 200px;
+    font-size: larger;
+
+}
+
+.points{
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: larger;
+    
+    
+}
+
+.box1{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+
+
+.buttons{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+button[type=submit]{
+    height: 80px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: rgb(99, 4, 4);
+    color: antiquewhite;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large;
+    margin-bottom: 150px;
+}
+
+.rec{
+    margin-left: 50px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.pictures{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+ 
+
+}
+
+.pictures > img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.s1 {
+    position: absolute; 
+    margin-right: 1280px;
+    margin-top: 10px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large;
+}
+.s2{
+    position: absolute;
+    margin-right: 260px;
+    margin-top: 10px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large;
+}
+.s3{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 10px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: large;
+}
+
+
+/* Footer*/
+
+.footer {
+
+    display: flex;
+    height: 250px;
+    width: auto;
+    background-color: rgb(99, 4, 4);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+
+}
+
+.footer > .uls {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > .fa-solid {
+    color: black;
+}
+
+.content{ 
+    margin-left: 820px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    align-content:normal;
+
+
+}
+
+.content > span > .fa-brands {
+    color: black;
+}
+
+.content >span {
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 90px;
+    width: 200px;
+    display: flex;
+   
+}
